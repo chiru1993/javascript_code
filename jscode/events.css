@@ -1,0 +1,11 @@
+.button{
+    background-color: aqua;
+    font-size: medium;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+}
