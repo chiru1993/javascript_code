@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid brown;
+    border-color: blue;
+    border-radius: 25px;
+    padding-left: 25px;
+}
+h1{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(205, 50, 140);
+    border-style: dashed;
+    border-color: black;
+}
+div{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 25px;
+}

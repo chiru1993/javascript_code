@@ -1,0 +1,14 @@
+#box1{
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    font-size: 10px;
+}
+#box2{
+    background-color: blueviolet;
+    height: 50px;
+    width: 30%;
+    font-size: 2em;
+    width: 5rem;
+    margin-left: 10%;
+}

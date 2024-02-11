@@ -1,0 +1,38 @@
+html{
+    background-image: url("ramtemple.jpg");
+   
+}
+div{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+h1{
+    text-decoration: red;
+    text-decoration-line: underline;
+}
+#box1{
+    background-image: url("nature.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+#box2{
+    background-image: url("lake.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+#box3{
+    background-image: url("mountains.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+    #box4{
+        background-image: url("waterfall.jpg");
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+    }

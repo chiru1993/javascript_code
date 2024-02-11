@@ -1,0 +1,22 @@
+*{
+    color: purple;
+}
+p{
+    color: aqua;
+}
+button{
+    color: brown;
+}
+#headingOne{
+    color: #8e1111;
+}
+#headingtwo{
+    color: yellowgreen;
+}
+#headingthree{
+    color: green;
+
+}
+.myclass{
+    color: #8e1111;
+}

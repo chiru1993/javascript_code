@@ -1,0 +1,28 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color:purple ;
+    display: inline-block;
+    border: 2px solid black;
+}
+h1{
+    text-decoration-line: underline;
+}
+#box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+#box3{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+box4{
+   position: fixed;
+   top: 0px;
+   z-index: -3;
+}

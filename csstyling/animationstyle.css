@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    animation-name: colorAnimate;
+   /* animation-duration: 0.25s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 100;*/
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+}
+@keyframes colorAnimate{
+   /* from{background-color: green;}
+    to {background-color: red;}*/
+   0% { left:0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    100% { left: 200px;
+    background-color: red;
+    }
+
+    
+}
+div:hover{
+
+}
+    

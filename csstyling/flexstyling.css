@@ -1,0 +1,47 @@
+h1{
+    color: blue;
+}
+body{
+    text-align: center;
+}
+
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+    align-items: center;
+    
+}
+#container{
+    width: 750px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   /* align-content: flex-start;*/
+    align-items: flex-start;
+}
+#box1{
+    background-color: brown;
+}
+#box2{
+    background-color: blue;
+    height: 200px;
+    align-self: flex-end;
+    
+
+}
+#box3{
+    background-color: red;
+}
+#box4{
+    background-color: green;
+}
+#box5{
+    background-color: orangered;
+    align-self: flex-end;
+}

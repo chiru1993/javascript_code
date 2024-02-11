@@ -1,0 +1,29 @@
+div{
+    color: brown;
+    background-color: yellowgreen;
+}
+/*changing background color */
+background{
+    color: aqua;
+}
+.heading{
+    color: blueviolet;
+}
+button{
+    background-color: green;
+    color: blue;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration-line: underline;
+}
+p{
+    font-size: 20px;
+
+}
+#outer{
+    text-size-adjust: 25px;
+}
