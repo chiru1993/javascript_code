@@ -13,7 +13,6 @@ function fib(n)
       return fib(n-1) + fib(n-2); 
 } 
   
-// Initialize variable n. 
 let n = 8; 
   
 console.log("Fibonacci series of 8 numbers is: "); 
