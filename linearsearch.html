@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linear search</title>
+    <script>
+        //let data =[20,40,60,5,10,70,80,99];
+        // let item=70;
+        // let index=undefined;
+        // for(i=0;i<=data.length-1;i++){
+        //     // console.log(data[i])
+        //     if(data[i]===item)
+        //     {
+        //         index=i;
+        //         break;
+        //     }
+        // }
+        // console.log(index);
+
+        // console.warn(data.indexOf(item))
+        // data.splice(2,1)
+        // console.log(data)
+
+    function searchElement(){
+    let data =[20,40,60,5,10,70,80,99];
+        let item=document.getElementById('searchEl').value;
+        let index=undefined;
+        for(i=0;i<=data.length-1;i++){
+            // console.warn(data[i])
+            if(data[i]===parseInt(item))
+            {
+                index=i;
+                break;
+            }
+        }
+        console.log(index);
+        if(!index){
+            alert("element not found")
+        } else{
+            alert("element idex is " + index);
+        }
+        }
+    </script>
+    </script>
+</head>
+<body>
+    <h2>Linear Search In Javascript</h2>
+    <input type="text" placeholder="enter value" id="searchEl">
+    <button onclick="searchElement()" >Search Element</button>
+</body>
+</html>

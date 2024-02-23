@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    
+
+// iterative approach
+    let data = [10, 15, 18, 34, 67,70,89];
+      let start = 0;
+      let end = data.length - 1;
+      let find = 89;
+      let position = undefined;
+      while (start <= end) {
+        let mid = Math.floor((start+end)/2);
+       // console.log(data[mid]);
+        if(data[mid]==find){
+          position = mid;
+          break;
+        }else if(data[mid]< find){
+          start = mid +1;
+        }else{
+          end = mid -1;
+        }
+      }
+      console.log(position);
+    </script>
+</head>
+<body>
+   <h2>Binary Search with iterative method</h2> 
+</body>
+</html>
